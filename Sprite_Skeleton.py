@@ -13,7 +13,7 @@ class User_Sprite(pygame.sprite.Sprite): #User_Sprite can be replaced with the n
         #Create a surface and give it a size
         self.image = pygame.Surface([130, 130])
 
-        self.image.set_colorkey((255, 255, 255))
+        self.image.set_colorkey((255, 255, 255)) #makes all white pixels (255, 255, 255) clear
 
         #Create an image and give it a png picture
         self.image = pygame.image.load("images/red_mushroom.png").convert_alpha() #assigning the image to the variable self.image
